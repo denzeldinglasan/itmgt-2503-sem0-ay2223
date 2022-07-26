@@ -129,4 +129,31 @@ def eta(first_stop, second_stop, route_map):
     '''
     # Replace `pass` with your code. 
     # Stay within the function. Only use the parameters as input. The function should return your answer.
-    pass
+    first_stop = f
+    second_stop = s
+    route_map = s
+    time = ""
+    r_keys_list = list(r.keys())
+    temp = []
+    for i in r_keys_list:
+        temp.append(i[0])
+    for f in [list(r.keys())[0]]:
+        time = (r[list(r.keys())[0]]["travel_time_mins"])
+    stop2 = temp[1]
+    if stop2 != s:
+        time == time
+        for stop2 in [list(r.keys())[1]]:
+            if stop2 in [list(r.keys())[1]]:
+                time += (r[list(r.keys())[1]]["travel_time_mins"])
+            else:
+                time = time
+        stop3 = temp[2]
+        if stop3 != s:
+            time == time
+            for stop3 in [list(r.keys())[2]]:
+                if stop3 in [list(r.keys())[2]]:
+                    time += (r[list(r.keys())[2]]["travel_time_mins"])
+                else:
+                    time = time
+
+    return(time)
